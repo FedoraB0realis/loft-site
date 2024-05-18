@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 
-function SlideOutCard({ tabContent, children }) {
+function SlideOutCard({ tabContent, children}) {
   const [isExpanded, setIsExpanded] = useState(false);
 
   const toggleCard = () => {
