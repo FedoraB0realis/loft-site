@@ -1,5 +1,5 @@
 {
-  "homepage":"https://fedorab0realis.github.io/loft-site/",
+  "homepage": "https://fedorab0realis.github.io/loft-site/",
   "name": "loft-site",
   "private": true,
   "version": "0.0.0",
@@ -11,7 +11,6 @@
     "preview": "vite preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
-
   },
   "dependencies": {
     "react": "^18.2.0",
